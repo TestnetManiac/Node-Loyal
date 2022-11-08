@@ -208,7 +208,7 @@ Delegating Process:
 ```
 loyald tx staking delegate $LYL_VALOPER_ADDRESS 10000000ulyl --from=$LYL_WALLET --chain-id=$LYL_ID --gas=auto --fees 250ulyl
 ```
-## Retransfer part from other Validator
+## Redelegating Validator from other Validator
 ```
 loyald tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 10000000ulyl --from=$LYL_WALLET --chain-id=$LYL_ID --gas=auto --fees 250ulyl
 ```
