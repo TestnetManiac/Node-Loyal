@@ -88,6 +88,8 @@ loyald status 2>&1 | jq .SyncInfo
 loyald keys add $LYL_WALLET
 ```
 
+> Please save your phrase and address from note
+
 <h2>Claim Faucet</h2>
 
 ```
